@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="taP-D0-QlJ" customClass="IndicateView">
+            <rect key="frame" x="0.0" y="0.0" width="312" height="45"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="继续拖动查看更多信息" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UJc-u9-3jk">
+                    <rect key="frame" x="89.5" y="14.5" width="133" height="16"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <color key="textColor" red="0.38823529411764707" green="0.38823529411764707" blue="0.38823529411764707" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view alpha="0.69999999999999996" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gjn-2Q-96t">
+                    <rect key="frame" x="232.5" y="22" width="79.5" height="1"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="0.59999999999999998" id="MeH-7o-2Qd"/>
+                    </constraints>
+                </view>
+                <view alpha="0.69999999999999996" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aOI-lJ-fgV">
+                    <rect key="frame" x="0.0" y="22" width="79.5" height="1"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="0.59999999999999998" id="2jJ-0l-UxX"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="UJc-u9-3jk" firstAttribute="leading" secondItem="aOI-lJ-fgV" secondAttribute="trailing" constant="10" id="186-wz-Fyd"/>
+                <constraint firstItem="gjn-2Q-96t" firstAttribute="leading" secondItem="UJc-u9-3jk" secondAttribute="trailing" constant="10" id="3Ze-DZ-0TI"/>
+                <constraint firstItem="UJc-u9-3jk" firstAttribute="centerY" secondItem="taP-D0-QlJ" secondAttribute="centerY" id="MMi-JG-pGd"/>
+                <constraint firstAttribute="trailing" secondItem="gjn-2Q-96t" secondAttribute="trailing" id="edi-db-Cud"/>
+                <constraint firstItem="aOI-lJ-fgV" firstAttribute="leading" secondItem="taP-D0-QlJ" secondAttribute="leading" id="gH0-bM-kDA"/>
+                <constraint firstItem="aOI-lJ-fgV" firstAttribute="centerY" secondItem="taP-D0-QlJ" secondAttribute="centerY" id="oB2-Ld-lwi"/>
+                <constraint firstItem="gjn-2Q-96t" firstAttribute="centerY" secondItem="taP-D0-QlJ" secondAttribute="centerY" id="sEU-ze-SAe"/>
+                <constraint firstItem="UJc-u9-3jk" firstAttribute="centerX" secondItem="taP-D0-QlJ" secondAttribute="centerX" id="xOs-9p-TF0"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-139" y="58.5"/>
+        </view>
+    </objects>
+</document>

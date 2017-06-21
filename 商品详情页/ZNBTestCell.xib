@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="215" id="KGk-i7-Jjw" customClass="ZNBTestCell">
+            <rect key="frame" x="0.0" y="0.0" width="395" height="215"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="395" height="214.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="znb 2" translatesAutoresizingMaskIntoConstraints="NO" id="YtO-8r-UhQ">
+                        <rect key="frame" x="5" y="5" width="202" height="204.5"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="YtO-8r-UhQ" secondAttribute="height" multiplier="89:90" id="qto-AI-nDX"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jnI-AF-6ee">
+                        <rect key="frame" x="207" y="0.0" width="188" height="214.5"/>
+                        <string key="text">托尔斯泰
+阿斯顿发送到
+发送费</string>
+                        <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="jnI-AF-6ee" secondAttribute="bottom" id="1i7-mO-0M9"/>
+                    <constraint firstAttribute="bottom" secondItem="YtO-8r-UhQ" secondAttribute="bottom" constant="5" id="Fdt-6j-m20"/>
+                    <constraint firstItem="YtO-8r-UhQ" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="Kxk-bA-Lee"/>
+                    <constraint firstItem="YtO-8r-UhQ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="5" id="PcP-dh-YVa"/>
+                    <constraint firstItem="jnI-AF-6ee" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="VPk-eb-rPw"/>
+                    <constraint firstItem="jnI-AF-6ee" firstAttribute="leading" secondItem="YtO-8r-UhQ" secondAttribute="trailing" id="mCu-qg-zIS"/>
+                    <constraint firstAttribute="trailing" secondItem="jnI-AF-6ee" secondAttribute="trailing" id="x7G-3b-FCH"/>
+                </constraints>
+            </tableViewCellContentView>
+            <point key="canvasLocation" x="71.5" y="139.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="znb 2" width="904" height="903"/>
+    </resources>
+</document>
